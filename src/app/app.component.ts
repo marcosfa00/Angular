@@ -15,6 +15,7 @@ import { Observable, interval } from 'rxjs';
 export class AppComponent {
   title = 'curriculum-Website';
   contador: number = 0;
+  resta: number = 7-2;
 
   ngOnInit() {
     // Crear un observable que emita un valor cada segundo
